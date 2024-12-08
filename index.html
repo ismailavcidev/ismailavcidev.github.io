@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Mathladder: Eğlenceli matematik oyunu ile çocuklar için öğrenme eğlencesi!">
+    <title>Mathladder - Çocuklar için Matematik</title>
+    <style>
+        /* Genel Stiller */
+        body {
+            font-family: 'Comic Sans MS', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #FFDAB9; /* Canlı arka plan rengi */
+            color: #2D2D34;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #FF6F61, #FFA07A); /* Canlı başlık arka planı */
+            padding: 30px 0;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 3.5em;
+            margin: 0;
+            text-shadow: 2px 2px 4px #444;
+        }
+
+        h2 {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #FFF8DC;
+        }
+
+        .container {
+            text-align: center;
+            margin: 40px 20px;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 15px;
+            padding: 15px 30px;
+            font-size: 1.3em;
+            text-decoration: none;
+            color: white;
+            background: #FFB400;
+            border-radius: 12px;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .button:hover {
+            background: #FF6F61;
+            transform: scale(1.05);
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            padding: 20px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 20px;
+            width: 300px;
+            border-radius: 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+            text-align: center;
+        }
+
+        .feature-card img {
+            width: 100px;
+            height: 100px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            background: linear-gradient(135deg, #FFA07A, #FF6F61);
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer a {
+            color: #FFF8DC;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer a:hover {
+            color: #FFB400;
+        }
+
+        .background-image {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://images.pexels.com/photos/1449934/pexels-photo-1449934.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Ücretsiz çocuk temalı resim */
+            background-size: cover;
+            background-position: center;
+            z-index: -1;
+            opacity: 0.3;
+        }
+    </style>
+</head>
+<body>
+    <!-- Arka Plan Resmi -->
+    <div class="background-image"></div>
+
+    <!-- Başlık -->
+    <header>
+        <h1>Mathladder</h1>
+        <h2>Çocuklar için eğlenceli ve interaktif matematik!</h2>
+    </header>
+
+    <!-- İndirme ve GitHub Bağlantıları -->
+    <div class="container">
+        <a target="_blank" href="https://drive.google.com/drive/folders/1JpSPmYhTE113ODOMQbF9kH42LcyD1L9d?usp=sharing" class="button">📥 Uygulamayı İndir</a>
+        <a target="_blank" href="https://github.com/ieavci/Mathladder" class="button">🌐 GitHub Projesi</a>
+    </div>
+
+    <!-- Özellikler -->
+    <div class="features">
+        <div class="feature-card">
+            <img src="https://images.pexels.com/photos/714699/pexels-photo-714699.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Matematik Eğlencesi">
+            <h3>🎲 Matematik Oyunları</h3>
+            <p>Eğlenceli seviyelerle matematik öğrenimini kolaylaştırın.</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://images.pexels.com/photos/7269671/pexels-photo-7269671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Eğitim ve Eğlence">
+            <h3>📚 Eğitim ve Eğlence</h3>
+            <p>Çocuklar hem öğrenir hem eğlenir!</p>
+        </div>
+        <div class="feature-card">
+            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Dostça Tasarım">
+            <h3>🖌️ Çocuk Dostu Arayüz</h3>
+            <p>Renkli, modern ve çocuk dostu bir tasarım sunar.</p>
+        </div>
+    </div>
+
+    <!-- Altbilgi -->
+    <footer>
+        <p>&copy; 2024 Mathladder | Tüm Hakları Saklıdır.</p>
+        <p>
+            <a target="_blank" href="https://drive.google.com/drive/folders/1JpSPmYhTE113ODOMQbF9kH42LcyD1L9d?usp=sharing">Uygulamayı İndir</a> | 
+            <a target="_blank" href="https://github.com/ieavci/Mathladder">GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
